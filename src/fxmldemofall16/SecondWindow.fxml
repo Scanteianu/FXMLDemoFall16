@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" fx:id="label" prefHeight="60.0" prefWidth="124.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmldemofall16.SecondWindowController">
+   <children>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="46.0" prefWidth="318.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#setLabel" text="GetSize" />
+            <Label fx:id="label1" text="Size is here!" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
